@@ -1,7 +1,7 @@
 package api;
 
 public class ApiClient {
-    public static final String URL = "";
+    public static final String URL = "http://192.168.43.14/user/";
     public static Retrofit RETROFIT = null;
 
     public static Retrofit getClient(){
